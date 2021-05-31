@@ -1,0 +1,408 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+.navbar{
+    margin: 0%;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 3;
+    background-color: white;
+    
+    
+    
+    
+}
+.lista{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+    
+}
+.lista li {
+    font-family: cursive;
+    margin: 10px;
+    color: black;
+    font-size: 1.1em;
+}
+.lista li:hover{
+    color: rgb(8, 154, 202);
+    cursor: pointer;
+}
+.lista li a {
+    text-decoration: none;
+    color: inherit;
+}
+.btn-btn-primary{
+    border: 2em;
+    width: 7em;
+    height: 2em;
+    border-radius: 15%;
+    background-color: rgb(8, 154, 202);
+    color: black;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.btn-btn-primary:hover{
+    width: 8em;
+    
+    
+
+}
+.offcanvas-end{
+    background-color:rgb(8, 154, 202);
+    
+  
+}
+.offcanvas-end p{
+    color: rgb(8, 154, 202);
+}
+.offcanvas-body{
+ display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.offcanvas-body h2{
+margin-bottom: 100%;
+color: black;
+}
+
+.card{
+    border: 0%;
+    width: 90%;
+    position: absolute;
+    border-color: black;
+    
+}
+
+.email{
+    height: 3em;
+}
+.pasword{
+    height:3em;
+}
+
+.form-check-label{
+    color: black;
+    
+}
+.portada{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+      
+}
+.letras{
+    display: flex;
+    width: 40%;
+    height: 100%;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-portada{
+margin-top: 5vh;
+height: 90%;
+width: 40%;
+background-image: url(http://sc04.alicdn.com/kf/HTB1BH2fdjfguuRjy1zeq6z0KFXaw.jpg);
+background-size: cover;
+z-index: 2;
+
+}
+.hola{
+    height: 100%;
+}
+.texto-portada{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    
+
+}
+.texto-portada h1{
+    display:flex;
+    align-items: center;
+    color: rgb(8, 154, 202);
+
+    
+}
+.fecha{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    color: rgb(8, 154, 202);
+    justify-content: center;
+    align-items: flex-start;
+}
+.imagenes{
+    width: 100%;
+    height: 39%;
+    display: flex;
+
+}
+.atencion{
+    display: flex;
+    width: 60%;
+    background-color: rgb(8, 154, 202);
+    align-items: center;
+    
+}
+.atencion h2{
+    margin-left: 15vh;
+    width: 40%;
+color: white;
+}
+.carrusel{
+    width: 40%;
+    height: 100%;
+    
+}
+.d-block{
+    height: 100%;
+}
+
+
+.bandas{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.hombres-mujeres{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+
+
+}
+
+.uno{
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    background-image: url(https://blog.querol.net/wp-content/uploads/2016/05/white-tie.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+transition-property: filter; 
+transition-duration: 1s;
+}
+.uno1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    transition-property: filter; 
+transition-duration: 1s;
+
+}
+.uno:hover{
+    filter:brightness(130%);
+    outline: 5px solid white;
+    outline-offset: 0px;
+}
+.uno1:hover{
+    filter:brightness(35%);
+    cursor:pointer;
+}
+.uno1 h2{
+    color: white;
+}
+
+
+.dos{
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    background-image: url(https://i.pinimg.com/originals/52/db/53/52db530ae7a6799ded825bc5e51e86f4.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+transition-property: filter; 
+transition-duration: 1s;
+
+}
+.dos2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+.dos:hover{
+    filter:brightness(130%);
+    outline: 2px solid white;
+    outline-offset: 0px;
+}
+.dos2:hover{
+    filter:brightness(35%);
+    cursor:pointer;
+    
+}
+.dos2 h2{
+    color: white;
+    z-index: 0;
+}
+.outlet-accsesorios{
+    margin-top: 2em;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.tres{
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    background-image: url(https://ae01.alicdn.com/kf/Ha4c6ca6d856f43578ebaadd63ac86896U/Anniebrit-nico-traje-Formal-de-rayas-grises-para-hombre-traje-de-negocios-a-medida-esmoquin-de.jpg_q50.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+transition-property: filter; 
+transition-duration: 1s;
+}
+.tres3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    transition-property: filter; 
+    transition-duration: 1s;
+
+}
+.tres:hover{
+    filter:brightness(130%);
+    border: 50vh;
+    border-color: rgb(8, 154, 202) ;
+    outline: 5px solid white;
+    outline-offset: 0px;
+}
+.tres3:hover{
+    filter:brightness(35%);
+    cursor:pointer;
+}
+.tres3 h2{
+    color: white;
+    z-index: 0;
+}
+.cuatro{
+    display: flex;
+    width: 30%;
+    height: 60vh;
+    background-image: url(https://www.rooks-rocks.com.mx/wp-content/uploads/2019/12/accesorios-hombre-1.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
+transition-property: filter; 
+transition-duration: 1s;
+}
+.cuatro:hover{
+    filter:brightness(130%);
+    border: 50vh;
+    border-color: rgb(8, 154, 202) ;
+    outline: 5px solid white;
+    outline-offset: 0px;
+}
+
+.pie{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(8, 154, 202);
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto{
+    display: flex;
+    width: 40%;
+    height: 30%;
+    justify-content: center;
+    
+}
+.contacto h2{
+    color: white;
+}
+.iconos {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+   
+}
+.iconos i{
+    font-size: 4vh;
+    
+    
+}
+.instagram:hover{
+    cursor: pointer;
+    color: c13584;
+}
+.twiter:hover{
+    cursor: pointer;
+    color: 14171;
+}
+.facebook:hover{
+    cursor: pointer;
+    color: 3b5998;
+}
+.whatsapp:hover{
+    cursor: pointer;
+    color: 25d366;
+}
+
+
+
+
+
+
+
+
+
+
+
