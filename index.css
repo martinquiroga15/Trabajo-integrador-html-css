@@ -11,10 +11,10 @@ body{
     height: 10%;
     z-index: 3;
     background-color: white;
-    
-    
-    
-    
+
+
+
+
 }
 .lista{
     padding: 0;
@@ -22,8 +22,8 @@ body{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    
-    
+
+
 }
 .lista li {
     font-family: cursive;
@@ -39,10 +39,23 @@ body{
     text-decoration: none;
     color: inherit;
 }
+.login{
+    border: 2em;
+    width: 20vh;
+    /* height: 2em; */
+    border-radius: 15%;
+    background-color: rgb(8, 154, 202);
+    color: black;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.login:hover{
+    width: 22vh;
+}
 .btn-btn-primary{
     border: 2em;
-    width: 7em;
-    height: 2em;
+    width: 30vh;
+    /* height: 2em; */
     border-radius: 15%;
     background-color: rgb(8, 154, 202);
     color: black;
@@ -50,15 +63,12 @@ body{
     transition-duration: 0.5s;
 }
 .btn-btn-primary:hover{
-    width: 8em;
-    
-    
-
+    width: 32vh;
 }
 .offcanvas-end{
     background-color:rgb(8, 154, 202);
-    
-  
+
+
 }
 .offcanvas-end p{
     color: rgb(8, 154, 202);
@@ -79,20 +89,17 @@ color: black;
     width: 90%;
     position: absolute;
     border-color: black;
-    
+
 }
 
 .email{
     height: 3em;
 }
-.pasword{
-    height:3em;
+.texto{
+    height:5em;
 }
 
-.form-check-label{
-    color: black;
-    
-}
+
 .portada{
     position: relative;
     background-color: white;
@@ -101,12 +108,12 @@ color: black;
     display: flex;
     justify-content: center;
     align-items:center;
-      
+
 }
 .letras{
     display: flex;
     width: 40%;
-    height: 100%;   
+    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -130,7 +137,7 @@ z-index: 2;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
-    
+
 
 }
 .texto-portada h1{
@@ -138,7 +145,7 @@ z-index: 2;
     align-items: center;
     color: rgb(8, 154, 202);
 
-    
+
 }
 .fecha{
     display: flex;
@@ -159,7 +166,7 @@ z-index: 2;
     width: 60%;
     background-color: rgb(8, 154, 202);
     align-items: center;
-    
+
 }
 .atencion h2{
     margin-left: 15vh;
@@ -169,7 +176,7 @@ color: white;
 .carrusel{
     width: 40%;
     height: 100%;
-    
+
 }
 .d-block{
     height: 100%;
@@ -184,7 +191,7 @@ color: white;
     justify-content:space-around;
     align-items: center;
     flex-direction: column;
-    
+
 
 }
 .hombres-mujeres{
@@ -207,17 +214,17 @@ color: white;
     box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
-transition-property: filter; 
+transition-property: filter;
 transition-duration: 1s;
 }
 .uno1{
     display: flex;
     width: 100%;
     height: 100%;
-    z-index: 3;
+    background-color: rgba(0,0,0,0.2);
     justify-content: center;
     align-items: center;
-    transition-property: filter; 
+    transition-property: filter;
 transition-duration: 1s;
 
 }
@@ -246,15 +253,15 @@ transition-duration: 1s;
     box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
-transition-property: filter; 
+transition-property: filter;
 transition-duration: 1s;
 
 }
 .dos2{
+    background-color: rgba(0,0,0,0.2);
     display: flex;
     width: 100%;
     height: 100%;
-    z-index: 3;
     justify-content: center;
     align-items: center;
     transition-property: all;
@@ -269,7 +276,7 @@ transition-duration: 1s;
 .dos2:hover{
     filter:brightness(35%);
     cursor:pointer;
-    
+
 }
 .dos2 h2{
     color: white;
@@ -294,17 +301,17 @@ transition-duration: 1s;
     box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
-transition-property: filter; 
+transition-property: filter;
 transition-duration: 1s;
 }
 .tres3{
     display: flex;
     width: 100%;
     height: 100%;
-    z-index: 3;
+    background-color: rgba(0,0,0,0.2);
     justify-content: center;
     align-items: center;
-    transition-property: filter; 
+    transition-property: filter;
     transition-duration: 1s;
 
 }
@@ -334,7 +341,7 @@ transition-duration: 1s;
     box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 2px 122px 8px rgba(0,0,0,0.75);
-transition-property: filter; 
+transition-property: filter;
 transition-duration: 1s;
 }
 .cuatro:hover{
@@ -343,6 +350,16 @@ transition-duration: 1s;
     border-color: rgb(8, 154, 202) ;
     outline: 5px solid white;
     outline-offset: 0px;
+}
+
+.mensaje{
+    width: 100%;
+    height: 10%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pie{
@@ -360,7 +377,7 @@ transition-duration: 1s;
     width: 40%;
     height: 30%;
     justify-content: center;
-    
+
 }
 .contacto h2{
     color: white;
@@ -372,11 +389,13 @@ transition-duration: 1s;
     justify-content: space-around;
     align-items: center;
     margin-top: 2vh;
-   
+
 }
 .iconos i{
     font-size: 4vh;
-    
+}
+.iconos a{
+    text-decoration: none;
     
 }
 .instagram:hover{
