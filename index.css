@@ -177,7 +177,7 @@ color: white;
 }
 
 
-.bandas{
+.trajes{
     margin-top: 2em;
     margin-bottom: 2em;
     width: 100%;
@@ -344,6 +344,157 @@ transition-duration: 1s;
     border-color: rgb(8, 154, 202) ;
     outline: 5px solid white;
     outline-offset: 0px;
+}
+
+.ofertas{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content:space-around ;
+}
+.sobretodo{
+    width: 20%;
+    height: 100%;
+    background-color:rgb(8, 154, 202)  ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.imagen-sobretodo{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_769704-MLA31172376018_062019-O.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.texto-sobretodo{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-sobretodo p{
+color: white;
+font-size: 3.5vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sobretodo:hover{
+    filter:brightness(90%);
+    border: 50vh;
+    border-color: rgb(8, 154, 202) ;
+    outline: 5px solid white;
+    outline-offset: 0px;
+    cursor:pointer;
+    transition-property: filter;
+    transition-duration: 0.5s;
+}
+.pantalon{
+    width: 20%;
+    height: 100%;
+    background-color:rgb(8, 154, 202)  ;
+}
+.imagen-pantalon{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51QIB6YGQcL._AC_UL200_SR200,200_.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.texto-pantalon{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-pantalon p{
+    color: white;
+font-size: 3.5vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pantalon:hover{
+    filter:brightness(90%);
+    border: 50vh;
+    border-color: rgb(8, 154, 202) ;
+    outline: 5px solid white;
+    outline-offset: 0px;
+    cursor:pointer;
+    transition-property: filter;
+    transition-duration: 0.5s;
+}
+.zapato{
+    width: 20%;
+    height: 100%;
+    background-color:rgb(8, 154, 202);
+}
+.imagen-zapato{
+    background-image: url(https://irp-cdn.multiscreensite.com/dc92a77e/MOBILE/png/140716-dolcezza-calzado-zapatos-de-hombre.png);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.texto-zapato{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-zapato p{
+    color: white;
+font-size: 3.5vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.zapato:hover{
+    filter:brightness(90%);
+    border: 50vh;
+    border-color: rgb(8, 154, 202) ;
+    outline: 5px solid white;
+    outline-offset: 0px;
+    cursor:pointer;
+    transition-property: filter;
+    transition-duration: 0.5s;
+}
+.camisa{
+    width: 20%;
+    height: 100%;
+    background-color:rgb(8, 154, 202);
+}
+.imagen-camisa{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_861341-MLA40957849513_022020-W.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.texto-camisa{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-camisa p{
+    color: white;
+font-size: 3.5vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.camisa:hover{
+    filter:brightness(90%);
+    border: 50vh;
+    border-color: rgb(8, 154, 202) ;
+    outline: 5px solid white;
+    outline-offset: 0px;
+    cursor:pointer;
+    transition-property: filter;
+    transition-duration: 0.5s;
 }
 
 .mensaje{

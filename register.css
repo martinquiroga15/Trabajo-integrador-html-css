@@ -2,11 +2,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
 
-.login{
+
+.logearse{
     background-color: rgb(8, 154, 202);
     width: 30%;
     height: 50%;
