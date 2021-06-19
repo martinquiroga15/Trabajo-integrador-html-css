@@ -559,7 +559,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     color: 25d366;
 }
-@media(max-width: 320px){
+@media(max-width: 360px){
     .uno{
         width: 45%;
         height: 30vh;
@@ -582,6 +582,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-left: 3vh;
+        margin-right: 3vh;
     }
     .sobretodo{
         display: flex;
