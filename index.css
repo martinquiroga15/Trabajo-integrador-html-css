@@ -559,6 +559,134 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     color: 25d366;
 }
+@media(max-width: 320px){
+    .uno{
+        width: 45%;
+        height: 30vh;
+    }
+    .dos{
+        width: 45%;
+        height: 30vh;
+    }
+    .tres{
+        width: 45%;
+        height: 30vh;
+    }
+    .cuatro{
+        width: 45%;
+        height: 30vh;
+    }
+    .ofertas{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sobretodo{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 24%;
+    }
+    .imagen-sobretodo{
+        background-image: url(https://http2.mlstatic.com/D_NQ_NP_769704-MLA31172376018_062019-O.jpg);
+        width: 70%;
+        height: 100%;
+        background-position: center;
+        }
+        
+    .texto-sobretodo{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 0%;
+
+    }
+    .texto-sobretodo p{
+        font-size: 2vh;
+    }
+    .pantalon{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 24%;
+    }
+   
+    .imagen-pantalon{
+        background-image: url(https://images-na.ssl-images-amazon.com/images/I/51QIB6YGQcL._AC_UL200_SR200,200_.jpg);
+        width: 70%;
+        height: 100%;
+        background-position: center;
+        }
+        
+    .texto-pantalon{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 0%;
+
+    }
+    .texto-pantalon p{
+        font-size: 2vh;
+    }
+    .zapato{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 24%;
+    }
+    
+    .imagen-zapato{
+        width: 70%;
+        height: 100%;
+        }
+        
+    .texto-zapato{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 0%;
+
+    }
+    .texto-zapato p{
+        font-size: 2vh;
+    }
+    .camisa{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 24%;
+    }
+   
+    .imagen-camisa{
+        background-image: url(https://http2.mlstatic.com/D_NQ_NP_861341-MLA40957849513_022020-W.jpg);
+        width: 70%;
+        height: 100%;
+        background-position: center;
+        }
+        
+    .texto-camisa{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 0%;
+
+    }
+    .texto-camisa p{
+        font-size: 2vh;
+    }
+
+
+
 
 
 
