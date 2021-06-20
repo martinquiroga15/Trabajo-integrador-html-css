@@ -748,6 +748,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     .texto-camisa p{
         font-size: 2vh;
     }
+    .pie{
+        width: 100%;
+
+    }
     }
     @media(min-width:412px) and (max-width: 768px){
         .portada{
