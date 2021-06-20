@@ -12,8 +12,9 @@ body{
     height: 10%;
     z-index: 3;
     background-color: white;
-    opacity: 0.7;
+   
 }
+
 .lista{
     padding: 0;
     list-style: none;
@@ -26,8 +27,12 @@ body{
     margin: 10px;
     color: black;
     font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.lista li:hover{
+
+a li:hover{
     color: rgb(8, 154, 202);
     cursor: pointer;
 }
@@ -44,6 +49,9 @@ body{
     color: black;
     transition-property: width;
     transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .login:hover{
     width: 22vh;
@@ -59,7 +67,7 @@ body{
     transition-duration: 0.5s;
 }
 .btn-btn-primary:hover{
-    width: 32vh;
+    width: 31vh;
 }
 .offcanvas-end{
     background-color:rgb(8, 154, 202);
@@ -559,7 +567,61 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
     color: 25d366;
 }
-@media(max-width: 360px){
+@media(max-width: 411px){
+    .navbar{
+        height: 6.5%;
+    }
+    .portada{
+        position: relative;
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .img-portada{
+        background-image:url(http://sc04.alicdn.com/kf/HTB1BH2fdjfguuRjy1zeq6z0KFXaw.jpg) ;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .letras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .texto-portada{
+        margin-left: 10vh;
+        width: 100%;
+        height: 40%;
+    }
+    .imagenes{
+        height: 30%;
+    }
+    .atencion{
+        width: 50%;
+    }
+    .atencion h2{
+        margin-left: 3vh;
+        width: 100%;
+    color: white;
+    font-size: 3vh;
+    }
+    .carrusel{
+        width: 50%;
+    }
+   
+    .trajes{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: column;
+    }
     .uno{
         width: 45%;
         height: 30vh;
@@ -686,6 +748,213 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     .texto-camisa p{
         font-size: 2vh;
     }
+    }
+    @media(min-width:412px) and (max-width: 768px){
+        .portada{
+            position: relative;
+            background-color: white;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .img-portada{
+            background-image:url(http://sc04.alicdn.com/kf/HTB1BH2fdjfguuRjy1zeq6z0KFXaw.jpg) ;
+            background-position: center;
+            background-size: cover;
+            
+        }
+        .letras{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .texto-portada{
+            margin-left: 10vh;
+            width: 100%;
+            height: 40%;
+        }
+
+
+        .atencion h2{
+            margin-left: 3vh;
+            width: 100%;
+        color: white;
+        font-size: 2.9vh;
+        }
+
+
+    
+        .trajes{
+            margin-top: 2em;
+            margin-bottom: 2em;
+            width: 100%;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .uno{
+            width: 45%;
+            height: 40vh;
+        }
+        .dos{
+            width: 45%;
+            height: 40vh;
+        }
+        .tres{
+            width: 45%;
+            height: 40vh;
+        }
+        .cuatro{
+            width: 45%;
+            height: 40vh;
+        }
+        .ofertas{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 3vh;
+            margin-right: 3vh;
+        }
+        .sobretodo{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 24%;
+        }
+        .imagen-sobretodo{
+            background-image: url(https://http2.mlstatic.com/D_NQ_NP_769704-MLA31172376018_062019-O.jpg);
+            width: 70%;
+            height: 100%;
+            background-position: center;
+            }
+            
+        .texto-sobretodo{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding: 0%;
+    
+        }
+        .texto-sobretodo p{
+            font-size: 2.5vh;
+        }
+        .pantalon{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 24%;
+        }
+       
+        .imagen-pantalon{
+            background-image: url(https://images-na.ssl-images-amazon.com/images/I/51QIB6YGQcL._AC_UL200_SR200,200_.jpg);
+            width: 70%;
+            height: 100%;
+            background-position: center;
+            }
+            
+        .texto-pantalon{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding: 0%;
+    
+        }
+        .texto-pantalon p{
+            font-size: 2.5vh;
+        }
+        .zapato{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 24%;
+        }
+        
+        .imagen-zapato{
+            width: 70%;
+            height: 100%;
+            }
+            
+        .texto-zapato{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding: 0%;
+    
+        }
+        .texto-zapato p{
+            font-size: 2.5vh;
+        }
+        .camisa{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 24%;
+        }
+       
+        .imagen-camisa{
+            background-image: url(https://http2.mlstatic.com/D_NQ_NP_861341-MLA40957849513_022020-W.jpg);
+            width: 70%;
+            height: 100%;
+            background-position: center;
+            }
+            
+        .texto-camisa{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding: 0%;
+    
+        }
+        .texto-camisa p{
+            font-size: 2.5vh;
+        }
+
+
+    }
+
+    @media(min-width:2560px){
+        a{
+            font-size: 2.5vh;
+        }
+        p{
+            font-size: 2.5vh;
+        }
+        h1{
+            font-size: 5vh;
+        }
+        h5{
+            font-size: 2.7vh;
+        }
+        h2{
+            font-size: 5vh;
+        }
+        .texto-portada{
+            margin-right: 19vh;
+            
+        }
+        .btn-btn-primary{
+            width: 35vh;
+            height: 10vh;
+        }
+        .offcanvas-body{
+            width: 100%;
+        }
+    }
+
 
 
 
